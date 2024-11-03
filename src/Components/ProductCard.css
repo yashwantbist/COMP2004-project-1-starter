@@ -1,0 +1,99 @@
+/* ProductCard.css */
+
+body {
+   
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  .ProductCard {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    border-color: #d18d28;
+    padding: 16px;
+    width:200px;
+  height:fit-content;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    display: flexbox;
+    transition: transform 0.2s;
+  }
+  
+  .ProductCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .ProductCard img {
+    width:200px;
+    height:300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .ProductCard h3 {
+    font-size: 1em;
+    margin: 8px 0;
+    font-weight: bold;
+  }
+  
+  .ProductCard p {
+    margin: 4px 0;
+    font-size: 0.9em;
+  }
+  
+  .ProductCard .quantity-controls {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    margin: 8px 0;
+  }
+  
+  .ProductCard .quantity-controls button {
+    background-color:black;
+    border: none;
+    color: #555;
+    color: #fff;
+
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .ProductCard .quantity-controls button:hover {
+    background-color:black;
+  }
+  
+  .ProductCard .quantity-controls span {
+    font-size: 1em;
+    margin: 0 10px;
+  }
+  
+  .ProductCard button {
+    background-color:black;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 8px;
+    transition: background-color 0.2s;
+  }
+  
+  .ProductCard button:hover {
+    background-color: #e0a15c;
+  }
+  
+  /* For container layout */
+  .ProductCardContainer {
+    display: flex;
+  justify-content: center;
+    gap: 16px;
+  }
+  

@@ -1,0 +1,28 @@
+
+  .grocery{
+    background-color: #4C2BE2;
+    color:#fff;
+   display: flex; 
+   justify-content: space-around;
+   position: relative;
+   border-radius: 0.5rem;
+  }
+
+
+
+
+
+.grocery img {
+  margin-top:  10px; 
+  padding-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.apple{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.apple img{
+  margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+.ProductList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  padding: 80px 20px; 
+}
+.ProductList img{
+  width: 75px;
+height: 150px;
+}
